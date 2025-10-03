@@ -1,0 +1,109 @@
+
+#Workflows in Cascade
+
+Workflows in Windsurf (also known as Custom Workflows) are designed to minimize the tedium associated with repetitive tasks by defining a series of steps for Cascade to follow.
+
+## Watch the Video:
+
+[![Watch the video](https://img.youtube.com/vi/Hq8ttBWlbfI/hqdefault.jpg)](https://www.youtube.com/embed/Hq8ttBWlbfI)
+
+## Creating a New Workflow:
+
+1.  **Access Customizations**: Click the "Customizations" icon (often a
+    book or gear icon, typically top-right).
+2.  **Navigate to Workflows**: Select the "Workflows" tab.
+3.  **Add New Workflow**: Click the "Add New" button.
+4.  **Define Invocable Name**: Enter a unique name used to trigger the
+    workflow (e.g., `test_new_changes`). This name will be used with a
+    `/` prefix.
+5.  **Write Description**: Provide a high-level summary of what the
+    workflow does.
+    -   Example: "Test new changes before committing."
+6.  **Define Content (Instructions)**: This is where you outline the
+    steps for Cascade.
+    -   You can start with some context for Cascade.
+    -   Example: "I just finished making a feature to my game Windsurf
+        Demo. To wrap things up, I want to:"
+    -   Then, list the specific steps:
+        1.  Stage the changes.
+        2.  Write unit tests.
+        3.  Test the code.
+        4.  Fix any issues that appear in step 3.
+        5.  Draft a PR.
+        6.  Commit the code.
+
+## Invoking a Workflow:
+
+-   **Slash Command**: In Cascade, type `/[workflow_invocable_name]`.
+    -   Example: `/test_new_changes`
+-   **Providing Context**: You can provide initial context to Cascade
+    before running the workflow.
+    -   Example: "I want to test the new feature I implemented, score
+        decay over time. Run `/test_new_changes`"
+
+## How Cascade Executes Workflows:
+
+-   **Contextual Understanding**: Cascade first tries to understand the
+    current state of your code.
+-   **Sequential Execution**: It follows the defined steps in order.
+-   **Problem Solving**: Cascade can handle issues encountered during
+    execution (like failed tests) and attempt to fix them if such steps
+    are part of the workflow.
+-   **Autonomous Operation**: Workflows can run with minimal to no user
+    intervention, allowing you to focus on other tasks.
+
+## Benefits of Workflows:
+
+-   **Reduce Tedium**: Automate common, multi-step processes.
+-   **Easy to Set Up**: Create workflows directly in the Windsurf
+    interface.
+-   **Shareable**: Scale best practices by sharing workflows with your
+    team.
+-   **Efficiency**: Accelerate development by standardizing and
+    automating tasks.
+
+Workflows are a powerful way to tailor Windsurf to your specific
+development processes and boost productivity.
+
+### Code Review Workflow:
+
+1.  Check for lint errors and fix them
+2.  Ensure all tests pass
+3.  Update documentation if needed
+4.  Create pull request with proper template
+5.  Request appropriate reviewers
+
+## Advanced Features:
+
+-   **Conditional Steps**: Include logic for different scenarios within
+    workflows.
+-   **Parameter Passing**: Accept inputs to customize workflow
+    execution.
+-   **Team Sharing**: Share workflows across your development team for
+    consistency.
+-   **Version Control**: Track workflow changes and improvements over
+    time.
+
+## Best Practices:
+
+-   Write specific, actionable steps rather than vague instructions
+-   Include error handling and alternative paths
+-   Test workflows thoroughly before sharing with team
+-   Use descriptive names and clear documentation
+-   Update workflows as processes evolve
+
+## \## Example Workflow Structure:
+
+## description: Deploy application to staging
+
+1.  Ensure all tests pass locally
+2.  Check that main branch is up to date
+3.  Build application with production settings
+4.  Deploy to staging environment
+5.  Run smoke tests on staging
+6.  Notify team of deployment completion
+
+------------------------------------------------------------------------
+
+Workflows turn Cascade into a powerful automation engine for your
+development processes.

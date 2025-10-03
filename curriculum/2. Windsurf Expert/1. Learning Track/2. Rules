@@ -1,0 +1,98 @@
+# Enforce Coding Standards with Rules
+
+Rules in Windsurf help maintain consistent code style and project-specific conventions by providing guidelines for Cascade.
+
+## Watch the Video:
+
+[![Watch the video](https://img.youtube.com/vi/D3uuCeOLfJA/hqdefault.jpg)](https://www.youtube.com/embed/D3uuCeOLfJA)
+
+## Accessing and Creating Rules:
+
+-   **Panel**: Open the "Customizations" panel (look for the open book
+    icon).
+-   **Global Rules**: Apply to all projects.
+    1.  Click the "Global" button.
+    2.  Write your rule (e.g., "Use Tailwind classes. Do not write raw
+        CSS.").
+-   **Workspace Rules**: Specific to the current project.
+    1.  Click "Add Workspace".
+    2.  Name the rule file (e.g., `python_style_guide.md`).
+    3.  Write your rule (e.g., "Replace argparse with typer.").
+
+## Rule Activation Modes:
+
+1.  **Manual**: Type `@rule-name` in Cascade to activate.
+2.  **Always On**: The rule applies to every Cascade action.
+3.  **Model Decision**: Cascade decides if the rule is relevant by
+    reading its description.
+4.  **Glob**: Triggers if a file path matches a regex pattern (e.g.,
+    `*.py` for Python files).
+
+## Best Practices for Writing Rules:
+
+-   **Be Short & Specific**: Make rules easy for Cascade to understand
+    and apply.
+-   **Avoid Generic Advice**: Focus on instructions Cascade doesn't
+    inherently know.
+-   **Group Guidelines**: If needed, use simple XML-style tags for
+    related instructions (e.g.,
+    `<python_guidelines>...</python_guidelines>`).
+-   **Storage**: Rules are plain markdown files.
+
+## Character Limits:
+
+-   **Single Rule File**: Maximum 6,000 characters.
+-   **Total (All Global + Workspace Rules)**: Maximum 12,000
+    characters.\
+    If exceeded, Cascade prioritizes global rules, then fits as many
+    workspace rules as possible.
+
+## Managing Your Rules:
+
+Since rules are stored as markdown files, you can easily: - Commit them
+to version control. - Share them with teammates. - Delete them when they
+are no longer useful.
+
+Rules are a powerful way to ensure Cascade aligns with your team's
+specific coding practices and project requirements.
+
+### Example Rules:
+
+-   "Follow the repository pattern for data access"
+-   "Use dependency injection for service classes"
+-   "Implement error boundaries for React components"
+
+### Project Conventions:
+
+-   "Name test files with `.test.ts` extension"
+-   "Put shared utilities in the `/utils` directory"
+-   "Use absolute imports for all internal modules"
+
+## Managing Existing Rules:
+
+-   **Edit Rules**: Click on any rule to modify its content or scope.
+-   **Delete Rules**: Remove rules that are no longer relevant or
+    effective.
+-   **Reorder Rules**: Arrange rules by priority or importance.
+-   **Export/Import**: Share rules with team members or across projects.
+
+## Rule Activation Modes (Detailed):
+
+-   **Always Active**: Rules that apply to every Cascade interaction.
+-   **Context-Specific**: Rules that activate based on file type or
+    project context.
+-   **On-Demand**: Rules you can reference explicitly in conversations.
+
+## Additional Example Rules:
+
+-   "When creating React components, always use TypeScript interfaces
+    for props and include default export."
+-   "For API endpoints, include input validation, error handling, and
+    proper HTTP status codes."
+-   "Write unit tests using Jest and include both positive and negative
+    test cases."
+
+------------------------------------------------------------------------
+
+Effective rules make Cascade more aligned with your development
+practices and team standards.
