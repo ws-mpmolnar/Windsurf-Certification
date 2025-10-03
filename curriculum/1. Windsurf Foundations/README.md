@@ -1,6 +1,6 @@
-# Windsurf Walkthrough
+# Windsurf Foundations
 
-Welcome to the Windsurf Walkthrough! This project includes a sample code base and suggested flows (prompts + user actions) as you get hands-on with the Windsurf Editor.
+Welcome to the Windsurf Foundations course! This section includes a sample code base and suggested flows (prompts + user actions) as you get hands-on with the Windsurf Editor.
 
 Instead of providing an exhaustive demonstration of all Windsurf's capabilities as your AI coding assistant, this project focuses on a few representative user flows and key takeaways for working with Windsurf.
 
@@ -10,10 +10,10 @@ For the latest information on Windsurf, check out [Windsurf University](https://
 
 ```
 ./
-├── contact-form-app/        # Example codebase (React + Python)
+├── 1. Learning Track/       # Lessons on the key features and functionalities of Windsurf
+├── 2. Challenges/           # A series of hands-on activities to test your Windsurf knowledge
+└── contact-form-app/        # Example codebase (React + Python)
 └── walkthrough/             # Introductory step-by-step walkthroughs
-    └── for-administrators/  # Reference material for Windsurf Administrators
-    └── challenges/          # Open-ended tasks for Windsurf users to continue exploring
 ```
 
 ## Getting Started
@@ -24,17 +24,13 @@ You will need to:
 - Clone this repository
 ![Clone Repository](walkthrough/assets/clone.gif)
 - Run the `/initialize-dev-environment` workflow in Cascade to setup your local development environment
-![Initialize Dev Environment](walkthrough/assets/initialize.png)
+![Initialize Dev Environment](./assets/initialize.png)
 
 
 ### Introductory Tutorials
-Begin by working through the [walkthrough](./walkthrough) to explore sample flows that demonstrate how to effectively collaborate with your AI coding assistant. 
+Begin by working through the [Learning Track](curriculum/1. Windsurf Foundations/1. Learning Track) to explore sample flows that demonstrate how to effectively collaborate with your AI coding assistant. 
 
 While these files are available on your local machine, it is recommended you open them in Github for better readability.
-
-### Contributing
-
-If you'd like to contribute to this project, please review the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to submit changes and improvements.
 
 ### Disclaimer on Non-deterministic Behavior
 
