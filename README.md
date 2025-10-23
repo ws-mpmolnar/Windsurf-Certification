@@ -52,12 +52,6 @@ The certification program is structured into **three levels**:
 
 ---
 
-## Rewards and Recognition
-
-TODO
-
----
-
 ## Champions Council
 
 Graduates of the Champion level are invited to join the **Champions Council**.  
