@@ -3,6 +3,7 @@
 Welcome to the **Windsurf Certification Program** repository.  
 This program is designed to equip users with deep product expertise, encourage consistent and advanced product usage, and create internal champions who can evangelize best practices. Participants who complete certification will also gain professional recognition as leaders in AI-assisted development.
 
+
 ---
 
 ## Program Levels
